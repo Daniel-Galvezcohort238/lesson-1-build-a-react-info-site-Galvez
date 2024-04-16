@@ -1,0 +1,30 @@
+1. Why do we need to `import React from "react"` in our files?
+My answer: React is a framework that makes it possible to reuse html in a more code-readable way. Part of this is hiding the code for the framework itself in another file, so we would need to import it.
+
+Right answer: React is what defines JSX (so I got this one right)
+
+2. If I were to console.log(page) in index.js, what would show up?
+My answer: Object[object]
+
+Right answer: the contents of the react object (so I got this one wrong)
+
+3. What's wrong with this code:
+```
+const page = (
+    <h1>Hello</h1>
+    <p>This is my website!</p>
+)
+```
+My answer: A react object cannot have separate tags. Multiple tags would need to be included in one unifying tag.
+
+Right answer: We need our JSX to be nested under a single parent element.
+
+4. What does it mean for something to be "declarative" instead of "imperative"?
+My answer: declarative is when directions are laid out in exhaustive detail. imperative is when you give some instructions but exactly how to execute them is not included.
+
+Right answer: declarative is when you give some instructions but exactly how to execute them is not included. Impierative is when directions are laid out in exhaustive detail (so I got this wrong)
+
+5. What does it mean for something to be "composable"?
+My answer: composable is when you can reuse a block of code by referencing it with a variable name.
+
+Right answer: We have small pieces that we can put together to make something larger/greater than the individual pieces (I sorta got this right)

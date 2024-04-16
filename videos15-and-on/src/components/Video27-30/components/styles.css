@@ -1,0 +1,65 @@
+.video27 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+
+    padding: 24px;
+    width: 40rem;
+    height:5rem;
+
+    background-color: rgb(33, 33, 33);
+    color: rgb(199, 199, 199);
+
+}
+
+h3 {
+    padding-top: 6px;
+}
+
+.logo {
+    margin-top:12px;
+    height: 40px;
+}
+
+.title {
+    display: flex;
+    margin-right:auto;
+
+    color:#61DAFB;
+}
+
+.main-content {
+    background-color: rgb(36, 39, 46);
+
+    color:white;
+
+    padding: 40px;
+
+    width: 38rem;
+    height: 30rem
+}
+
+.video27-li {
+    color: rgb(199, 199, 199);
+    font-size: large;
+    
+    width: 28rem;
+
+}
+.video27-li::marker {
+    font-size:1.4rem;
+    color:#61DAFB;
+}
+
+.logo-gray {
+    position:absolute;
+    top: 1990px;
+    right: 610px;
+    width: 190px
+}
+

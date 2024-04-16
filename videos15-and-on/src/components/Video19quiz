@@ -1,0 +1,30 @@
+Quiz!
+
+1. What is a React component?
+My Answer: A react component is a piece of code that takes html code and puts it into a React Object for rendering into the DOM
+
+2. What's wrong with this code?
+```
+function myComponent() {
+    return (
+        <small>I'm tiny text!</small>
+    )
+}
+```
+My Answer: the first 'm' in myComponent needs to be capitalized
+
+3. What's wrong with this code?
+```
+function Header() {
+    return (
+        <header>
+            <nav>
+                <img src="./react-logo.png" width="40px" />
+            </nav>
+        </header>
+    )
+}
+
+ReactDOM.render(Header(), document.getElementById("root"))
+```
+My Answer: you dont reference the React Object like you would a normal function, you need to put it <inside here/>

@@ -1,0 +1,28 @@
+Header {
+    display: flex;
+align-items: center;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+
+    
+    box-shadow: 20px, 20px, 20px black;
+}
+
+.logo {
+    width: 40px;
+    height: 36px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 12rem;
+}

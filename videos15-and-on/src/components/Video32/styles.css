@@ -1,0 +1,98 @@
+button {
+    font-size:larger;
+
+    margin:1rem;
+    padding-right: 1.5rem;
+
+    width: 10rem;
+    border-radius: 1cap;
+}
+
+.div-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.daniel {
+    height:630px;
+    width: 472.5px;
+}
+
+.href {
+    color:rgb(171, 187, 187);
+}
+
+.mail-btn {
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.336);
+}
+.mail-btn:hover {
+    background-color:rgb(170, 170, 170);
+}
+
+.linkedin-btn {
+    background-color: rgb(48, 95, 156);
+    color:white;
+
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.336);
+}
+.linkedin-btn:hover {
+    background-color: rgb(42, 81, 133);
+    color:rgb(170, 170, 170);
+}
+
+.nav-logo {
+    margin:0.8rem;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+
+    background-color:rgb(32, 50, 66);
+    color:rgb(171, 187, 187);
+
+    width:384px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+
+    background-color:rgb(16, 22, 34);
+
+    width:384px;
+}
+
+.link-logo {
+    font-size: 2rem;
+
+    color:rgb(181, 201, 201);
+
+    margin:1rem;
+}
